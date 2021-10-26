@@ -1,0 +1,137 @@
+/*-------------------index.html--------------------------*/
+
+/*------------Barra de Navegación-----------*/
+.navbar-brand img{
+max-width: 67px;
+
+}
+nav{
+    background-color: rgb(61, 60, 60);
+}
+
+#listanav  {
+    font-size: small;
+
+}
+.nav-link{
+    color: rgb(192, 192, 192);
+}
+#comprarticket{
+    color: green;
+}
+
+
+/*------------La conferencia-----------*/
+
+
+#inicio{
+   background-image: url(imagenes/hawaii.jpg);
+    
+    min-height: 100%;
+    min-width:  100% ;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+    grid-template-rows: repeat(7, 1fr);
+   
+
+}
+
+
+#iniciotexto{
+    color: whitesmoke ;
+    grid-column: 6 / 13;
+    grid-row: 3/6;
+    position: relative;
+    text-align: end;
+    padding-right: 80px;
+  
+    
+}
+
+#botoness{
+    display: flex;
+    gap: 20px;
+    color: white;
+    justify-content: flex-end;
+  
+    
+}
+
+
+
+/*------------El lugar y la fecha-----------*/
+
+.contenedor-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(61, 60, 60);
+    width: auto;
+    height: auto;
+    color: white;
+    
+    
+}
+
+.lugarimg{
+    max-width: 100%;
+
+}
+.contenedor-3 .texto{
+    font-size: 0.7em;
+    margin: 5px;
+    padding: 8px;
+}
+.contenedor-3 h2{
+    font-size:medium;
+
+
+}
+.contenedor-3 button{
+    font-size: 0.9em;
+}
+
+/*------------Los oradores-----------*/
+.card-border{
+    transition:all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+    
+
+
+
+/*------------footer-----------*/
+#footer{
+    background-color: rgb(61, 60, 60) !important;
+}
+
+
+/*------------footer--------------*/
+
+/*------------------------ticket.html-------------------------*/
+
+/*------------descuentos--------------*/
+
+#descuentos {
+    max-width: 69%;
+   
+}
+
+#descuentos .card-group{
+   gap: 5px;
+   margin-top: 20px;
+}
+
+/*---------------------etiqueta-form------------------*/
+#fondo-a-pagar{
+    
+   border-radius: 5px;
+background: transparent;
+}
